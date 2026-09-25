@@ -180,49 +180,5 @@ Mở lại **project cũ**, thêm script mới vào **chính thư mục game đa
 3. Nếu cần, dùng **AI rà & tự sửa bản dịch** (Mục 04) và **Rà xưng hô bản dịch** (Mục 03). Không coi phát hiện tự động là kết luận tuyệt đối; kiểm tra bản sửa trước khi duyệt.
 4. **Duyệt các câu đã chọn** hoặc **Duyệt tất cả** sau khi xem chất lượng. **Xuất bản nháp** để kiểm tra riêng; **Ghi vào game + .bak** để ghi vào game kèm bản sao lưu. Đóng game trước khi ghi và chạy thử bản đã dịch.
 
-## ❓ Hỏi đáp & xử lý lỗi
-
-<details>
-<summary><b>Người khác tải bản GitHub có thấy project tôi đang làm không?</b></summary>
-
-Không phải chỉ vì app trên máy bạn tự mở lại project cũ. RenPyVN Studio có cơ chế nhớ project của **người đang sử dụng máy đó**. Tuy nhiên, trước khi công bố, người phát hành vẫn cần kiểm tra ZIP không chứa thư mục game, `.renpyvn`, API key hoặc dữ liệu cá nhân.
-
-</details>
-
-<details>
-<summary><b>Windows Security tự cách ly/xóa EXE?</b></summary>
-
-Mở **Windows Security → Virus & threat protection → Protection history** để xem tên phát hiện và đường dẫn file. Không tắt Defender toàn hệ thống; nếu nghi nhận diện nhầm, chủ bản phát hành có thể gửi file cho Microsoft phân tích.
-
-</details>
-
-<details>
-<summary><b>Đã nhập JSON rồi nhưng xưng hô vẫn sai?</b></summary>
-
-Kiểm tra đúng **người nghe của từng dòng**, **cặp có hướng** `người nói → người nghe`, trạng thái **LOCKED** và những đề xuất trong **Cảnh báo xưng hô**. Người nghe do AI phân tích và đại từ của cặp là hai dữ liệu khác nhau. Những câu đã dịch trước khi sửa rule cần được rà/dịch lại khi cần.
-
-</details>
-
-<details>
-<summary><b>Có thể dịch mọi ngôn ngữ không?</b></summary>
-
-Bạn có thể chọn nguồn/đích trong ứng dụng, nhưng chất lượng còn phụ thuộc model và ngôn ngữ thực tế. Bộ quy tắc đại từ tiếng Việt phù hợp nhất khi **ngôn ngữ đích là tiếng Việt**; đừng mặc định các ngôn ngữ khác có cùng cách xưng hô.
-
-</details>
-
-## 🔐 Quyền riêng tư & lưu ý
-
-- **Không đăng API key, file project, gói Prompt chứa script game hoặc JSON riêng** lên issue/repository công khai.
-- Nếu dùng API/web AI, nội dung bạn gửi được xử lý theo điều khoản của nhà cung cấp AI bạn chọn.
-- Công cụ độc lập, không liên kết chính thức với Ren’Py hay các nhà cung cấp AI. Xem giấy phép đi kèm bản phát hành.
-- Trang tải công khai chỉ dành cho **bản chạy đã đóng gói** và tài liệu. Source code của tác giả không nằm trong gói README này.
-
-<div align="center">
-
----
-
-**RenPyVN Studio 2.5.5** · Made for Ren’Py localization 💙
-
-[⬆️ Về đầu trang](#renpyvn-studio) · [📥 GitHub Releases](https://github.com/dphucduc/RenPyVN-Downloads/releases)
 
 </div>
