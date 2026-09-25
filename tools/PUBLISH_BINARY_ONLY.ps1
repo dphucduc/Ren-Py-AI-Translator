@@ -8,7 +8,9 @@ param(
 $ErrorActionPreference = "Stop"
 $fullRepo = "$Owner/$PublicRepo"
 if (-not $ZipPath) {
-    $ZipPath = Join-Path $PSScriptRoot "..\_release_binary_only\RenPyVN_Studio_v2.4.2_Windows_x64_BINARY_ONLY.zip"
+    $candidateHere = Join-Path $PSScriptRoot "_release_binary_only\RenPyVN_Studio_v2.4.2_Windows_x64_BINARY_ONLY.zip"
+    $candidateParent = Join-Path $PSScriptRoot "..\_release_binary_only\RenPyVN_Studio_v2.4.2_Windows_x64_BINARY_ONLY.zip"
+    $ZipPath = if (Test-Path -LiteralPath $candidateHere) { $candidateHere } else { $candidateParent }
 }
 $ZipPath = [IO.Path]::GetFullPath($ZipPath)
 $checksums = Join-Path (Split-Path $ZipPath -Parent) "SHA256SUMS.txt"
@@ -60,8 +62,8 @@ $readme = @"
 
 Get the latest Windows x64 app under [Releases](https://github.com/$fullRepo/releases/latest).
 
-1. Download the \`*_BINARY_ONLY.zip\` file from the latest release (not GitHub's automatic **Source code** ZIP).
-2. Extract the whole archive and run \`RenPyVN_Studio.exe\`.
+1. Download the ``*_BINARY_ONLY.zip`` file from the latest release (not GitHub's automatic **Source code** ZIP).
+2. Extract the whole archive and run ``RenPyVN_Studio.exe``.
 3. Bring your own AI API credentials or Ollama. No game scripts or personal project data are included.
 
 The development/source repository is PRIVATE. Executables can still be reverse engineered; binary-only means source files are not distributed in the release ZIP. License and third-party notices are included in the download.
