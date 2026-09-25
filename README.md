@@ -25,6 +25,4 @@ Bấm Bắt đầu / dịch tiếp, có thể tạm dừng và tiếp tục sau.
 - Xuất bản nháp: tạo file dịch riêng để kiểm tra.
 - Ghi vào game + .bak: ghi bản dịch và tạo bản sao lưu. Đóng game trước khi ghi và mở thử game sau khi xuất.
 Công cụ cố gắng giữ nguyên mã Ren’Py, biến như [player_name] và tag như {i}, nhưng bản dịch AI vẫn có thể sai ngữ cảnh hoặc cấu trúc. Luôn kiểm tra và chạy thử game trước khi chia sẻ bản dịch.
-🔒 Quyền riêng tư & báo lỗi
-Nội dung bạn gửi dịch có thể được chuyển tới nhà cung cấp AI đã chọn. Không công khai API key, dữ liệu project cá nhân hoặc toàn bộ game có bản quyền. Khi báo lỗi, hãy cung cấp phiên bản ứng dụng, bước thao tác, thông báo lỗi và đoạn script mẫu đã ẩn dữ liệu riêng.
-Ứng dụng độc lập, không liên kết chính thức với Ren’Py hay các nhà cung cấp AI. Xem LICENSE và THIRD_PARTY_NOTICES.md trong gói phát hành để biết giấy phép và thành phần bên thứ ba.
+
