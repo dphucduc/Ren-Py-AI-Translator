@@ -35,7 +35,7 @@ Phần mềm hướng tới **thoại, lời dẫn và lựa chọn** trong `.rp
 
 ## 🚀 Bắt đầu nhanh
 
-1. Mở trang **[Releases](https://github.com/dphucduc/RenPyVN-Downloads/releases)**, tải ZIP `Windows_x64_BINARY_ONLY` của phiên bản cần dùng (không chọn *Source code*).
+1.Tải zip
 2. **Giải nén toàn bộ** ZIP, chạy `RenPyVN_Studio.exe`. Không kéo riêng EXE ra ngoài thư mục của nó.
 3. Ở **Mục 01**, chọn file `.rpy` hoặc thư mục game. Ở **Mục 02**, chọn ngôn ngữ và kết nối model AI, rồi bấm **Lưu cấu hình**.
 4. Ở **Mục 03**, phân tích nhân vật/người nghe bằng **AI trong app** hoặc **Prompt AI ngoài**. Xem hồ sơ, duyệt cặp xưng hô và Glossary.
