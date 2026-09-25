@@ -82,19 +82,5 @@ Công cụ tập trung vào **thoại, lời dẫn và menu** của game Ren’P
 
 ---
 
-## 🔐 Quyền riêng tư & lưu ý
-
-- Văn bản/ngữ cảnh gửi đến **nhà cung cấp AI bạn cấu hình** có thể được xử lý theo chính sách của bên đó.
-- Không đăng công khai **API key, dữ liệu project cá nhân** hoặc toàn bộ game có bản quyền.
-- Nếu gặp lỗi, hãy gửi **phiên bản ứng dụng, bước thao tác, thông báo lỗi và đoạn script mẫu đã ẩn dữ liệu riêng**.
-- Công cụ độc lập, không liên kết chính thức với Ren’Py hoặc nhà cung cấp AI. Xem `LICENSE` và `THIRD_PARTY_NOTICES.md` trong gói phát hành để biết giấy phép liên quan.
-
-<div align="center">
-
----
-
-**Made for Ren’Py localization · RenPyVN Studio 2.5.0** 💙
-
-*Tải bản ứng dụng tại Releases. Repository tải về không chứa mã nguồn dự án.*
 
 </div>
