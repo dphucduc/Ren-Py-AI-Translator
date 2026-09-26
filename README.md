@@ -180,5 +180,17 @@ Mở lại **project cũ**, thêm script mới vào **chính thư mục game đa
 3. Nếu cần, dùng **AI rà & tự sửa bản dịch** (Mục 04) và **Rà xưng hô bản dịch** (Mục 03). Không coi phát hiện tự động là kết luận tuyệt đối; kiểm tra bản sửa trước khi duyệt.
 4. **Duyệt các câu đã chọn** hoặc **Duyệt tất cả** sau khi xem chất lượng. **Xuất bản nháp** để kiểm tra riêng; **Ghi vào game + .bak** để ghi vào game kèm bản sao lưu. Đóng game trước khi ghi và chạy thử bản đã dịch.
 
+## 📖 Hướng dẫn sử dụng RenPyVN Studio
 
+### 01. Nguồn & giải nén
+![Hướng dẫn nguồn và giải nén](docs/a1.png)
+
+### 02. Kết nối AI
+![Hướng dẫn kết nối AI](docs/a2.png)
+
+### 03. Xưng hô & Glossary
+![Hướng dẫn xưng hô và glossary](docs/a3.png)
+
+### 04. Dịch & duyệt
+![Hướng dẫn dịch và duyệt](docs/a4.png)
 </div>
